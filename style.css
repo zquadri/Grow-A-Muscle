@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato;
+}
+.page-container {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.beginner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  text-align: center;
+  background: hsl(120, 46%, 49%);
+}
+.intermediate-container {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: hsl(120, 68%, 38%);
+}
+.expert-container {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: hsl(120, 93%, 17%);
+}
+.beginner-container:hover,
+.intermediate-container:hover,
+.expert-container:hover {
+  filter: brightness(125%);
+}
+.level-description {
+  padding: 30px;
+}
