@@ -1,6 +1,6 @@
 # Grow-A-Muscle
 
-This application serves to help those who are confused on how to progress with their goal of building muscle. Whether one is a beginner who does not know what exercises to do or an advanced athlete who does know understand how to get out of his plateau, this app can help you have the proper training regiment to grow more muscle. It does this by first asking the user to select their current level of experience with weight training.
+This application serves to help those who are confused on how to progress with their goal of building muscle. Whether the user is a beginner who does not know what exercises to do, or an advanced athlete who does know understand how to get out of his plateau, this app can help you have the proper training regiment to grow more muscle. It does this by first asking the user to select their current level of experience with weight training.
 
 There are 3 levels:
 1.Beginner
