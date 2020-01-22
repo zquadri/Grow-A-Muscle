@@ -6,39 +6,53 @@
 }
 .page-container {
   color: #fff;
-  margin: 0;
-  padding: 0;
+  text-align: center;
   min-height: 100vh;
   display: flex;
-  text-align: center;
   justify-content: space-between;
+  align-content: center;
 }
 .beginner-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(./imgs/training-wheels.jpg);
+  background-position: 60% 20%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 33%;
   text-align: center;
-  background: hsl(120, 46%, 49%);
+  /* background: hsl(120, 46%, 49%); */
 }
 .intermediate-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(./imgs/barbell.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   width: 33%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: hsl(120, 68%, 38%);
 }
 .expert-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(./imgs/weights.jpg);
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   width: 33%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: hsl(120, 93%, 17%);
 }
 .beginner-container:hover,
 .intermediate-container:hover,
@@ -47,4 +61,16 @@
 }
 .level-description {
   padding: 30px;
+}
+.btn {
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+}
+.btn:hover {
+  background: #fff;
+  color: #292727;
+}
+a {
+  text-decoration: none;
 }
